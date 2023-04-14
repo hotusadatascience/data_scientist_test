@@ -1,13 +1,13 @@
 # Grupo Hotusa - Data Scientist Test
 
-El director de Revenue Management de un hotel nos comenta que las cancelaciones tienen un impacto negativo y se pregunta si con esto del Machine Learning y la Inteligencia Artificial seríamos capaces de predecir que reservas van a cancelar y cuáles no. 
+El director de Revenue Management nos comenta que las cancelaciones tienen un impacto negativo en los resultados del hotel y se pregunta si con todo esto del Machine Learning y la Inteligencia Artificial seríamos capaces de predecir qué reservas van a cancelar y cuáles no. 
 
 El director quiere poner en marcha este modelo para poder realizar overbooking (llenar el hotel por encima del inventario total disponible con el objetivo de ocupar aquellas reservas que se van a cancelar). El hotel está en el centro de Lisboa y en la misma ciudad el grupo hotelero tiene varios hoteles, por lo que **no hay ningún riesgo en llenar el hotel más de la cuenta** y enviar el exceso de reservas a otros hoteles en la ciudad.
 
 ## Descripción de la tarea
 
 El dataset (**hotusa_cancellations.csv**) con el que trabajar contiene las siguientes columnas:
-- *HotelId*:
+- *HotelId*: Id del hotel
 - *ReservationStatusDate*: Fecha en la que se realizó la reserva
 - *ArrivalDate*: Fecha de inicio de la reserva
 - *LeadTime*: Antelación (días entre la generación de la reserva hasta la fecha de inicio de ésta)
@@ -29,16 +29,15 @@ Debes crear un report reproducible (en un notebook en Python o R) siguiendo esto
 
 2. **Preparación de los datos**
   * ¿Le darías el mismo tratamiento a todas las variables?
-  * ¿Utilizarías todas las variables o eliminarías alguna de ellas por no ofrecer mucho valor?
+  * ¿Utilizarías todas las variables o eliminarías alguna de ellas por no ofrecer valor?
   
 3. **Construcción del modelo**
   * ¿Qué tipo de modelo es el más adiente? Support Vector Machines, Decision Tree, Logistic Regression, K-Means, Redes Neuronales, Random Forest, Gradient Boosting, Naive Bayes, PCA, Lasso Regression...
-  * No es necesario probar entre cientos de modelos con distintos hiperparámetros para ver qué da mejores resultados, basta con justificar la elección.
+  * No es necesario probar entre cientos de modelos con distintos hiperparámetros para saber cuál da mejores resultados, basta con justificar la elección.
   
 4. **Evaluación del modelo**
   * ¿Cuál sería el benchmark a batir? ¿Estamos contentos con los resultados obtenidos?
   * ¿Qué resultados podríamos esperar con este modelo en producción?
-  * Cuidado en esta sección. 
 
 ## Entrega
 
