@@ -2,7 +2,7 @@
 
 El director de Revenue Management de un hotel nos comenta que las cancelaciones tienen un impacto negativo y se pregunta si con esto del Machine Learning y la Inteligencia Artificial seríamos capaces de predecir que reservas van a cancelar y cuáles no. 
 
-El director quiere poner en marcha este modelo para poder realizar overbooking (llenar el hotel por encima del inventario total disponible con el objetivo de ocupar aquellas reservas que se van a cancelar). El hotel está en el centro de Lisboa y en la misma ciudad el grupo hotelero tiene varios hoteles, por lo que no hay ningún riesgo en llenar el hotel más de la cuenta y enviar el exceso de reservas a otros hoteles en la ciudad.
+El director quiere poner en marcha este modelo para poder realizar overbooking (llenar el hotel por encima del inventario total disponible con el objetivo de ocupar aquellas reservas que se van a cancelar). El hotel está en el centro de Lisboa y en la misma ciudad el grupo hotelero tiene varios hoteles, por lo que **no hay ningún riesgo en llenar el hotel más de la cuenta** y enviar el exceso de reservas a otros hoteles en la ciudad.
 
 ## Descripción de la tarea
 
@@ -24,13 +24,21 @@ El dataset (**hotusa_cancellations.csv**) con el que trabajar contiene las sigui
 - *IsRepeatedGuest*: Cliente repetitivo
 
 Debes crear un report reproducible (en un notebook en Python o R) siguiendo estos pasos:
-1. EDA sencillo y básico. 
- * ¿Qué variables parecen ser las más predictivas?
-2. Preparación de los datos.
- * 
-3. Construcción del modelo. 
+1. **EDA sencillo y básico** (A Revenue Management le preocupan más los resultados que los insights)
+  * ¿Qué variables parecen ser las más predictivas?
 
-Se valorará las explicaciones y insights que se detecten como también que las gráficas sean fáciles de leer. No es tanto escupir los datos, sino contar una historia con ellos. Este report lo debería poder leer tanto un perfil técnico como un perfil de negocio. 
+2. **Preparación de los datos**
+  * ¿Le darías el mismo tratamiento a todas las variables?
+  * ¿Utilizarías todas las variables o eliminarías alguna de ellas por no ofrecer mucho valor?
+  
+3. **Construcción del modelo**
+  * ¿Qué tipo de modelo es el más adiente? Support Vector Machines, Decision Tree, Logistic Regression, K-Means, Redes Neuronales, Random Forest, Gradient Boosting, Naive Bayes, PCA, Lasso Regression...
+  * No es necesario probar entre cientos de modelos con distintos hiperparámetros para ver qué da mejores resultados, basta con justificar la elección.
+  
+4. **Evaluación del modelo**
+  * ¿Cuál sería el benchmark a batir? ¿Estamos contentos con los resultados obtenidos?
+  * ¿Qué resultados podríamos esperar con este modelo en producción?
+  * Cuidado en esta sección. 
 
 ## Entrega
 
