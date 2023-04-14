@@ -22,6 +22,7 @@ El dataset (**hotusa_cancellations.csv**) con el que trabajar contiene las sigui
 - *Company*: Compañía del cliente
 - *ReservedRoomType*: Habitación reservada
 - *IsRepeatedGuest*: Cliente repetitivo
+- *IsCanceled*: Booleano que indica si la reserva se canceló o no (TARGET variable)
 
 Debes crear un report reproducible (en un notebook en Python o R) siguiendo estos pasos:
 1. **EDA sencillo y básico** (A Revenue Management le preocupan más los resultados que los insights)
