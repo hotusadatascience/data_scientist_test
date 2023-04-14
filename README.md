@@ -17,7 +17,7 @@ El dataset (**hotusa_cancellations.csv**) con el que trabajar contiene las sigui
 - *Children*: Número de niños en la reserva
 - *CustomerType*: Tipo de cliente
 - *ADR*: Average Daily Rate (precio medio por reserva. Precio total de la reserva dividido por el número de noches)
-- *Meal*: Tipo de Alojamiento 
+- *Meal*: Tipo de Alojamiento (BB (Bed and Breakfast), HB (Half Board), Undefined, FB (Full Board), and SC (Self Catering))
 - *Country*: País de procedencia del cliente
 - *Company*: Compañía del cliente
 - *ReservedRoomType*: Habitación reservada
