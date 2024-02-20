@@ -40,6 +40,4 @@ Debes crear un report reproducible (en un notebook en Python o R) siguiendo esto
   * ¿Cuál sería el benchmark a batir? ¿Estamos contentos con los resultados obtenidos?
   * ¿Qué resultados podríamos esperar con este modelo en producción?
 
-## Entrega
 
-Entrega tus resultados en notebook o en un link al repo en GitHub a: carlos.perez@eurostarshotelcompany.com 
