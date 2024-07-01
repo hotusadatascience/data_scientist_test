@@ -33,7 +33,7 @@ Debes crear un report reproducible (en un notebook en Python o R) siguiendo esto
   * ¿Utilizarías todas las variables o eliminarías alguna de ellas por no ofrecer valor?
   
 3. **Construcción del modelo**
-  * ¿Qué tipo de modelo es el más adiente? Support Vector Machines, Decision Tree, Logistic Regression, K-Means, Redes Neuronales, Random Forest, Gradient Boosting, Naive Bayes, PCA, Lasso Regression...
+  * ¿Qué tipo de modelo es el más adecuado? Support Vector Machines, Decision Tree, Logistic Regression, K-Means, Redes Neuronales, Random Forest, Gradient Boosting, Naive Bayes, PCA, Lasso Regression...
   * No es necesario probar entre cientos de modelos con distintos hiperparámetros para saber cuál da mejores resultados, basta con justificar la elección.
   
 4. **Evaluación del modelo**
